@@ -13,4 +13,7 @@ public class MemberHistoryPK implements Serializable {
 
     private String memberId;
     private Long memberSequence;
+
+    protected MemberHistoryPK() {
+    }
 }

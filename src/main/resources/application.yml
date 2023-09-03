@@ -16,6 +16,7 @@ spring:
     show-sql: true
 
 logging.level:
-  com.kenny.com.kenny.postgrescompositepksequencesample: DEBUG
-  org.hibernate.type: TRACE
+  com.kenny.postgrescompositepksequencesample: DEBUG
+#  org.hibernate.type: TRACE
+  org.hibernate.orm.jdbc: TRACE
 
