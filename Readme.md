@@ -1,7 +1,7 @@
-### 1. MemberHisory 클래스에 복합컬럼PK를 두고, 시퀀스컬럼에 @SequenceGenerator, @GeneratedValue 정의
+### 1. MemberHisory 엔터티에 복합컬럼PK를 두고, 시퀀스컬럼에 @SequenceGenerator, @GeneratedValue 정의
 ![MemberHistory](image/MemberHistory.png)
 
-### 2. MemberService에서 단순히 save() 메서드 호출
+### 2. MemberService에서 save() 메서드만 호출
 ![MemberService](image/MemberService.png)
 
 ### 3. 어플리케이션 로그에 save()시 select -> nextval -> insert순으로 쿼리 수행됨
